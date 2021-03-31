@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="StyleExo7.css" />
+    <title>Exercice 7</title>
+</head>
+<body>
+    <form method="post" action="traitement.php">
+        <fieldset id="fondBleu">
+            <legend id="bleu">Votre identité</legend> </br>
+
+            <label for="nom">1. Nom</label> : <input type="text" name="nom" id="nom" placeholder="Nom" size="30" /> </br>
+            <label for="prénom">2. Prénom</label> : <input type="text" name="prénom" id="prénom" placeholder="Prénom" size="30" /> </br>
+            <label for="mail">3. Adresse mail</label> : <input type="email" name="mail" id="mail" placeholder="Adresse mail" size="30" /> </br>
+        </fieldset>
+    </form>
+
+    <form method="post" action="traitement.php">
+        <fieldset id="fondViolet">
+            <legend id="violet">Adresse de livraison</legend> </br>
+        
+            <label for="adresse">1. Adresse</label> : <textarea name="adresse" id="adresse"></textarea> </br>
+            <label for="postal">2. Code postal</label> : <input type="text" name="postal" id="postal" placeholder="Code postal" size="30" /> </br>
+            <label for="ville">3. Ville</label> : <input type="text" name="ville" id="ville" placeholder="Ville" size="30" /> </br>
+        </fieldset>
+    </form>
+
+    <form method="post" action="traitement.php">
+        <fieldset id="fondRose">
+            <legend id="rose">Informations de réglement</legend> </br>
+
+            <div>1. Type de carte bancaire :</div>
+            <div class="centre"><input type="radio" name="type" value="VISA" id="VISA" /> <label for="VISA">VISA</label></div>
+            <div class="centre"><input type="radio" name="type" value="Mastercard" id="Mastercard" /> <label for="Mastercard">Mastercard</label></div>
+            <label for="numéro">2. Numéro de carte</label> : <input type="text" name="numéro" id="numéro" placeholder="Numéro de carte" size="30" /> </br>
+            <label for="code">3. Code de sécurité</label> : <input type="password" name="code" id="code" placeholder="Code de sécurité" size="30" /> </br>
+            <label for="titulaire">4. Nom du titulaire</label> : <input type="text" name="titulaire" id="titulaire" placeholder="Nom du titulaire" size="30" /> </br>
+        </fieldset>
+    </form>
+    <input type="submit" value="J'achète !" />
+</body>
+</html>

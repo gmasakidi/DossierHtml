@@ -1,0 +1,32 @@
+textarea
+{
+    height: 90px;
+}
+.centre
+{
+    text-indent: 50px
+}
+#fondBleu
+{
+    background-color: royalblue;
+}
+#fondViolet
+{
+    background-color: rebeccapurple;
+}
+#fondRose
+{
+    background-color: crimson;
+}
+#bleu
+{
+    background-color: royalblue;
+}
+#violet
+{
+    background-color:rebeccapurple ;
+}
+#rose
+{
+    background-color:crimson ;
+}
