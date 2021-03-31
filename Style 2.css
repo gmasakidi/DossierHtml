@@ -1,0 +1,81 @@
+#colorGreen
+{
+    background-color:forestgreen;
+    width: 80%;
+    height: 30px;
+}
+#colorBlue
+{
+    background-color:steelblue;
+    width: 20%;
+    height: 30px
+}
+#colorRed
+{
+    background-color:red;
+    width: 40%;
+    height: 90px;
+
+}
+#colorOrange
+{
+    background-color:orange;
+    width: 50%;
+    height: 45px;
+}
+#colorOrange2
+{
+    background-color:orangered;
+    width: 34%;
+    height: 45px;
+}
+#colorYellow
+{
+    background-color:yellow;
+    width: 33%;
+    height: 45px;
+}
+#colorGrey
+{
+    background-color:gray;
+    width: 50%;
+    height: 45px;
+}
+#colorBlack
+{
+    background-color:darkslateblue;
+    width: 100%;
+    height: 130px;
+}
+#colorBlue2
+{
+    background-color:darkcyan;
+    width: 33%;
+    height: 45px;
+}
+#ligne1
+{
+display:flex
+}
+#ligne2
+{
+display:flex
+}
+#ligne3
+{
+display:flex
+}
+#multi
+{
+    height: 90px;
+    width: 60%
+
+}
+#ligne2a
+{
+    display:flex
+}
+#ligne2b
+{
+    display:flex
+}
